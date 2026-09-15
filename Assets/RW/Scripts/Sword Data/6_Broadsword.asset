@@ -12,3 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9cf1edd34ace50d48ae02d8523337a33, type: 3}
   m_Name: 6_Broadsword
   m_EditorClassIdentifier: 
+  swordName: Broadsword
+  description: 6666666666666666666666666666
+  icon: {fileID: 21300000, guid: 4975e12abe4187a46924c269a3a788f1, type: 3}
+  goldCost: 250
+  attackDamage: 200
