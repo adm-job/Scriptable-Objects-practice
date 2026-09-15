@@ -3,33 +3,41 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "New SwordData", menuName = "Sword Data", order = 51)]
 public class SwordData : ScriptableObject
 {
+
     [SerializeField]
-    public string swordName
+    private string swordName;
+    [SerializeField]
+    private string description;
+    [SerializeField]
+    private Sprite icon;
+    [SerializeField]
+    private int goldCost;
+    [SerializeField]
+    private int attackDamage;
+    [SerializeField]
+
+    public string SwordName
     {
         get { return swordName; }
     }
 
-    [SerializeField]
     public string Description
     {
-        get { return Description; }
+        get { return description; }
     }
     
-    [SerializeField]
     public Sprite Icon
     {
-        get { return Icon; }
+        get { return icon; }
     }
 
-    [SerializeField]
     public int GoldCost
     {
-        get { return GoldCost; }
+        get { return goldCost; }
     }
 
-    [SerializeField]
     public int AttackDamage
     {
-        get { return AttackDamage; }
+        get { return attackDamage; }
     }
 }
