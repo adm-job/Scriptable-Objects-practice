@@ -1,18 +1,35 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "New SwordData", menuName = "Sword Data", order = 51)]
 public class SwordData : ScriptableObject
 {
     [SerializeField]
-    private string swordName;
+    public string swordName
+    {
+        get { return swordName; }
+    }
+
     [SerializeField]
-    private string description;
+    public string Description
+    {
+        get { return Description; }
+    }
+    
     [SerializeField]
-    private Sprite icon;
+    public Sprite Icon
+    {
+        get { return Icon; }
+    }
+
     [SerializeField]
-    private int goldCost;
+    public int GoldCost
+    {
+        get { return GoldCost; }
+    }
+
     [SerializeField]
-    private int attackDamage;
+    public int AttackDamage
+    {
+        get { return AttackDamage; }
+    }
 }
