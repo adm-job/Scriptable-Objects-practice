@@ -6,7 +6,7 @@ using UnityEngine;
 public class GameEvent : ScriptableObject // 2
 {
     private List<GameEventListener> listeners = new List<GameEventListener>(); // 3
-
+    
     public void Raise() // 4
     {
         for (int i = listeners.Count - 1; i >= 0; i--) // 5
