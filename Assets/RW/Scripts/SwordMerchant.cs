@@ -17,14 +17,13 @@ public class SwordMerchant : MonoBehaviour
     [SerializeField]
     private Text attackDamage;
 
-
-public void UpdateDisplayUI(SwordData swordData)
-{
-    swordName.text = swordData.SwordName;
-    description.text = swordData.Description;
-    icon.sprite = swordData.Icon;
-    goldCost.text = swordData.GoldCost.ToString();
-    attackDamage.text = swordData.AttackDamage.ToString();
-}
+    public void UpdateDisplayUI(SwordData swordData)
+    {
+        swordName.text = swordData.SwordName;
+        description.text = swordData.Description;
+        icon.sprite = swordData.Icon;
+        goldCost.text = swordData.GoldCost.ToString();
+        attackDamage.text = swordData.AttackDamage.ToString();
+    }
 
 }

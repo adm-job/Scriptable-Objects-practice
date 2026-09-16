@@ -12,11 +12,5 @@ public class Sword : MonoBehaviour
     private void OnMouseDown()
     {
         OnSwordSelected.Raise();
-
-        Debug.Log(swordData.name);
-        Debug.Log(swordData.Description);
-        Debug.Log(swordData.Icon.name);
-        Debug.Log(swordData.GoldCost);
-        Debug.Log(swordData.AttackDamage);
     }
 }
