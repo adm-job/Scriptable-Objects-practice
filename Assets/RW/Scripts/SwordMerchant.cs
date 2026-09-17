@@ -1,5 +1,3 @@
-using System.Security.Cryptography.X509Certificates;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -19,8 +17,6 @@ public class SwordMerchant : MonoBehaviour
 
     public void UpdateDisplayUI(SwordData swordData)
     {
-        Debug.Log($"UI обновляется: {swordData.SwordName}");
-
         swordName.text = swordData.SwordName;
         description.text = swordData.Description;
         icon.sprite = swordData.Icon;

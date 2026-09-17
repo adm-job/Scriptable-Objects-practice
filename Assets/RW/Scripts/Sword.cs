@@ -11,7 +11,6 @@ public class Sword : MonoBehaviour
 
     private void OnMouseDown()
     {
-        Debug.Log($"Нажат меч: {swordData.name}");
         OnSwordSelected.Raise();
     }
 }
