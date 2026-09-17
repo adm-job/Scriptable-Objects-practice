@@ -22,6 +22,7 @@ public class GameEventListener : MonoBehaviour
 
     public void OnEventRaised()
     {
+        Debug.Log($"Событие получено: {gameEvent.name}");
         response.Invoke();
     }
 }

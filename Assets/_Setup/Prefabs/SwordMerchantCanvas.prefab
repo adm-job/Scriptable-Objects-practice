@@ -398,7 +398,6 @@ GameObject:
   - component: {fileID: 223179903244510114}
   - component: {fileID: 114320516633951572}
   - component: {fileID: 114628513461025698}
-  - component: {fileID: 5942017211038709249}
   m_Layer: 5
   m_Name: SwordMerchantCanvas
   m_TagString: Untagged
@@ -490,23 +489,6 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &5942017211038709249
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1560570793081158}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6c7332c6a6f7b9945a810869d12cab6b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  swordName: {fileID: 114181759690190502}
-  description: {fileID: 114395076152756604}
-  icon: {fileID: 114099244540979298}
-  goldCost: {fileID: 114096612776099566}
-  attackDamage: {fileID: 114819868484012288}
 --- !u!1 &1686109275804952
 GameObject:
   m_ObjectHideFlags: 0
